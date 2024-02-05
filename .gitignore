@@ -4,14 +4,18 @@ venv/
 # 临时网页
 Scraper/tempHTML/*
 
-# 财务报表html
+# 财务报表
 Scraper/DATA/财务报表HTML/*
+Scraper/DATA/财务报表CSV/*
 
 # 忽略根目录下HTML文件
 *.html
 
 # 忽略所有文件夹下的HTML文件
 **/*.html
+
+# 别人的模型
+XGBoostLSTM/
 
 
 
